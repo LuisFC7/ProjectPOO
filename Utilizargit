@@ -1,0 +1,23 @@
+//escribes en la consola de linux 
+1. primero copias el url del repositorio.
+2. Abres la terminal de linux y descargas 
+	la libreria git
+
+sudo apt -get install git
+
+3. Ya instalado, escribes en la terminal git clone url
+donde esta url pegas el url del repositorio.
+
+4. Te va a crear una carpeta con el nombre del repositorio
+	te metes a esa carpeta desde la terminal y empiezas a hacer
+	codigo, cuando lo termines lo guardas.
+
+5. Ya que lo guardaste y lo quieras subir escribes git add Archivo.java
+6. Despues escribes 
+	git commit -m 'Mensaje que quieras escribir'
+
+7. Despues escribes
+	git push -u
+ 
+y te va a pedir meter tu usuario y contraseña de tu cuenta de 
+github, las pones y el archivo se sube al repositorio y ya.
