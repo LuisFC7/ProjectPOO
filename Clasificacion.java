@@ -1,6 +1,24 @@
 
-public class Clasificacion extends Registration
+import java.util.Scanner;
+public class Clasificacion 
 {
+	Scanner des = new Scanner(System.in);
+	
+	System.out.println("What animal do you want to adopt?");
+	System.out.println("1. Dog");
+	System.out.println("2. Cats");
+	int choice = des.nextInt();
+	
+	switch(choice)
+	{
+		case 1: perros();
+			break;
+			
+		case 2: gatos();
+			break;
+			
+	}
+	
 	public void perros()
 	{
 		System.out.println("---------------------PERROS---------------------");
